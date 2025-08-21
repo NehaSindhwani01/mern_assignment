@@ -130,7 +130,7 @@ const Layout = ({ children }) => {
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="flex items-center mb-4 md:mb-0">
               <Home className="h-5 w-5 mr-2" />
-              <span className="text-sm">© 2023 DistribuTrack. All rights reserved.</span>
+              <span className="text-sm">© 2023 Machine Test. All rights reserved.</span>
             </div>
             <div className="flex space-x-6">
               <a href="#" className="text-white/80 hover:text-white text-sm transition-colors duration-200">
