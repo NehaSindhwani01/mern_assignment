@@ -21,3 +21,4 @@ export const getAgents = async (req, res) => {
     const agents = await Agent.find().select('-password').sort({ createdAt: -1 });
     res.json(agents);
 };
+

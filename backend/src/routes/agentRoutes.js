@@ -8,4 +8,5 @@ const router = Router();
 router.post('/add', authMiddleware, adminOnly, addAgent);
 router.get('/', authMiddleware, adminOnly, getAgents);
 
+
 export default router;
