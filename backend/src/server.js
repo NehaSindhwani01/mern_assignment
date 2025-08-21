@@ -14,7 +14,7 @@ if (!fs.existsSync('uploads')) {
 
 connectDB(process.env.MONGO_URI)
     .then(() => {
-        app.listen(PORT, () => console.log(`🚀 Backend running on http://localhost:${PORT}`));
+        app.listen(PORT, () => console.log(`🚀 Backend running on https://mern-assignment-l6zo.onrender.com`));
     })
     .catch((e) => {
         console.error('Mongo connection failed', e);
